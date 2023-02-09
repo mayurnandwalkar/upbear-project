@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font -- DM Sans -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>NFT </title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand me-auto" href="#">
+                    <!-- LOGO -->
+                    <img src="./assets/img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="between-space"></div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav bordered-link ">
+                        <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item register-link">
+                            <a class="nav-link bg-fill-white" href="signup.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <div class="hero">
+            <div class="top-right-img">
+                <img src="./assets/img/top-right.svg" alt="top-right">
+            </div>
+            <div class="left-bottom-img">
+                <img src="./assets/img/left-bottom.svg" alt="left-bottom">
+            </div>
+            <div class="container">
+                <div class="row flex-lg-row-reverse align-items-center py-5 hero-center">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                        <img src="./assets/img/hero.png" class="d-block mx-lg-auto img-fluid animated pulse infinite"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                        <div class="hero-left-section">
+                            <h1 class="fw-bold">Discover, and Collect 3D Art NFTs</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Start
+                                    Collecting</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===== FEATURE =====-->
+        <section class="feature-section section">
+            <div class="container px-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-md-center">
+                            <p class="mb-2 lead">Our features</p>
+                            <h2 class="pb-2 ">How Can I Benefit?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="feature col">
+                        <div class="feature-card">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                                <img src="./assets/img/Confluence.svg" alt="Confluence">
+                            </div>
+                            <h4>Fast Transaction</h4>
+                            <p>Secure transactions between artists and fans/investors. Protecting your ownership. </p>
+                        </div>
+                    </div>
+                    <div class="feature col">
+                        <div class="feature-card">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                                <img src="./assets/img/Social_Share.svg" alt="Social_Share">
+                            </div>
+                            <h4>Connect your crypto</h4>
+                            <p>Connect your crypto wallet and start securely uploading your music NFTs.</p>
+                        </div>
+                    </div>
+                    <div class="feature col">
+                        <div class="feature-card">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                                <img src="./assets/img/CodePen.svg" alt="CodePen">
+                            </div>
+                            <h4>Suppport creators</h4>
+                            <p>Support their favourite creators by purchasing editions of their unique music NFTs </p>
+                        </div>
+                    </div>
+                    <div class="feature col">
+                        <div class="feature-card">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                                <img src="./assets/img/Adobe.svg" alt="Adobe">
+                            </div>
+                            <h4>Join the community</h4>
+                            <p>User friendly platform where you can, follow, comment and join large communities. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Start Earn =====-->
+        <section class="earn-section section">
+            <div class="container ">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="section-title">
+                            <h2>
+                                Discover and earn up to $10 worth of crypto
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="section-sub-title">
+                            <p class="lead ">Discover and learn how specific cryptocurrencies work. And get the amazing
+                                earn to try out for yourself</p>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="earn-section-table">
+                            <div class="table-responsive">
+                                <table class="table" id="earnTable">
+                                    <thead>
+                                        <tr>
+                                            <th width="450px"> Name </th>
+                                            <th> Price </th>
+                                            <th> 24 change </th>
+                                            <th> 7D Chart </th>
+                                            <th> Trade </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="tableName">
+                                                    1 <img src="./assets/img/bitcoin-btc-logo.svg" alt="bitcoin" class="tableIcon"> Bitcoin <span>BTC</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                               $46,575.34
+                                            </td>
+                                            <td>
+                                                <span class="text-green"> +0.29% </span>
+                                            </td>
+                                            <td>
+                                                <div class="graph_img">
+                                                    <img src="./assets/img/red_graph.svg" alt="red_graph">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="buy_btn">Buy</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tableName">
+                                                    2 <img src="./assets/img/ethereum.svg" alt="ethereum" class="tableIcon"> Ethereum <span>ETH</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                               $3,852.57
+                                            </td>
+                                            <td>
+                                                <span class="text-green"> +1.46% </span>
+                                            </td>
+                                            <td>
+                                                <div class="graph_img">
+                                                    <img src="./assets/img/green_graph.svg" alt="green_graph">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="buy_btn">Buy</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tableName">
+                                                    1 <img src="./assets/img/solana-sol-logo.svg" alt="solana" class="tableIcon"> Solana <span>SOL</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                               $171,28
+                                            </td>
+                                            <td>
+                                                <span class="text-green"> +0.68% </span>
+                                            </td>
+                                            <td>
+                                                <div class="graph_img">
+                                                    <img src="./assets/img/red_graph.svg" alt="red_graph">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="buy_btn">Buy</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="tableName">
+                                                    1 <img src="./assets/img/binance-usd-busd-logo.svg" alt="binance" class="tableIcon"> Binance <span>BNB</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                               $517.76
+                                            </td>
+                                            <td>
+                                                <span class="text-green"> +0.35% </span>
+                                            </td>
+                                            <td>
+                                                <div class="graph_img">
+                                                    <img src="./assets/img/green_graph.svg" alt="green_graph">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="buy_btn">Buy</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <div class="earn-section-image">
+                            <img src="./assets/img/table2.png" alt="table1" class="img-fluid">
+                        </div> -->
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== Learn Section =====-->
+        <section class="learn-section section">
+            <div class="container px-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="main-section-title section-title text-md-center">
+                            <h2 class="pb-2">Market sentiments, portfolio, of your choice</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-md-row-reverse align-items-center  g-5 pb-5 justify-content-between">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="section-image">
+                            <img src="./assets/img/chart1.png" class="d-block mx-lg-auto img-fluid" alt="chart"
+                                loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <div class="section-title section-sub-title section-title-left">
+                            <h2>Invest Smart</h2>
+                            <p class="">Get full statistic information about the behaviour of buyers and sellers will
+                                help you to make the decision.
+                            </p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-md-row-reverse align-items-center  g-5 py-5 justify-content-between">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="section-image">
+                            <img src="./assets/img/table1.png" class="d-block mx-lg-auto img-fluid" alt="chart"
+                                loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <div class="section-title section-sub-title section-title-left">
+                            <h2>Grow your profit and track your investments</h2>
+                            <p class="">Use advanced analytical tools. Clear TradingView charts let you track current
+                                and historical profit investments.
+                            </p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== News Letter =====-->
+        <section class="newsletter-section mb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="row align-items-center justify-content-around newsletter-bg">
+                            <div class="col-lg-4 overflow-hidden shadow-lg">
+                                <div class="newsletter-image">
+                                    <img class="img-fluid" src="./assets/img/newsletter.jpg" alt="newsletter">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-md-center">
+                                <div class="section-title section-title-left">
+                                    <h2>Sign up now and play the games</h2>
+                                </div>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
+                                    <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-form">
+                <p class="footer__title">Subscribe to our newsletter.</p>
+                <div class="form-group">
+                    <input type="text" name="newsletter" id="newsletter" class="form-control"
+                        placeholder="Enter your Email">
+                    <button type="submit" class="">
+                        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24.2873 8.70711C24.6778 8.31658 24.6778 7.68342 24.2873 7.29289L17.9234 0.928932C17.5328 0.538408 16.8997 0.538408 16.5091 0.928932C16.1186 1.31946 16.1186 1.95262 16.5091 2.34315L22.166 8L16.5091 13.6569C16.1186 14.0474 16.1186 14.6805 16.5091 15.0711C16.8997 15.4616 17.5328 15.4616 17.9234 15.0711L24.2873 8.70711ZM0.392578 9H23.5802V7H0.392578V9Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-youtube'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#earnTable').DataTable();
+        });
+    </script>
+</body>
+
+</html>
